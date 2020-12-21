@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class MainViewModel {
+    let detailName: String
+    
+    init(mainModel: MainModel){
+        
+        detailName = mainModel.name
+    }
+}

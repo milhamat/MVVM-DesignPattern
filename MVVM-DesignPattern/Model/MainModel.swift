@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct MainModel: Decodable {
+    
+    let name: String
+}
